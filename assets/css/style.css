@@ -494,7 +494,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 
 .bg-secondary-foreground\/10 {
@@ -613,7 +613,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .portfolio #portfolio-flters {
@@ -764,6 +764,57 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 4rem;
+  font-size: 2rem;
+  margin-top: -1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.portfolio .portfolio-card {
+  height: auto;
+  min-height: 330px;
+  max-height: 330px;
+}
+
+.portfolio .portfolio-description {
+  margin-top: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.portfolio .social-links {
+  margin: 0 0 40px 0;
+  text-align: left!important;
+}
+
+.portfolio .social-links a {
+  font-size: 22px;
+  display: inline-block;
+  background: #6d6e6f;
+  color: #fff;
+  line-height: 1;
+  padding: 6px;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.portfolio .social-links a:hover {
+  background: #0678e3;
+  color: #fff;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
